@@ -1,1 +1,1 @@
-Literatura sobre los perritos
+La muerte del perro en la literatura
