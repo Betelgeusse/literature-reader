@@ -28,14 +28,14 @@ def log_file(texto, md="full-log"):
     
     dir = f"log/{current_log}"
 
-    with open(dir+f"/full-log.md", "a") as main_log:
+    with open(dir+f"/full-log.md", "a", encoding="utf-8") as main_log:
         main_log.write(str(texto) + "\n")
     
     if md != "full-log":
         file_path = Path(dir) / f"{md}.md"
         file_path.parent.mkdir(parents=True, exist_ok=True)
 
-        with open(file_path, "a") as specific_log:
+        with open(file_path, "a", encoding="utf-8") as specific_log:
             specific_log.write(str(texto) + "\n")
 
 def log_prompt(prompt, prompt_result, prompt_n, log):

@@ -9,7 +9,7 @@ Tu rol es mencionar referencias bibliográficas sobre el Tema de Investigación 
 
 # Tema de Investigación (TI)
 
-{tema}
+{topic}
 
 # Respuesta esperada:
 

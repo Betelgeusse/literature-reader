@@ -1,6 +1,6 @@
 PROMPT: 
 
-#Request took 2.926 seconds.
+# Request took 1.172 seconds.
 # Eres un agente experto en una gran multitud de idiomas
 
 Menciona todos los idiomas naturales que tengan publicaciones verificables por ISBN.
@@ -12,38 +12,48 @@ Menciona todos los idiomas naturales que tengan publicaciones verificables por I
 * Menciona solo idiomas que tengan publicaciones verificables por ISBN.
 
 # Respuesta esperada:
-* En una sola lÌnea menciona los idiomas para los que hay literatura que trate del tema.
-* NO A—ADAS PUNTO FINAL, ni ning˙n otro caracter especial adicional a la coma (,).
+* En una sola l√≠nea menciona los idiomas para los que hay literatura que trate del tema.
+* NO A√ëADAS PUNTO FINAL, ni ning√∫n otro caracter especial adicional a la coma (,).
 
 ## Ejemplo de respuesta esperada:
-espaÒol,inglÈs,aleman,frances
+espa√±ol,ingl√©s,aleman,frances
 
 PROMPT RESULT: 
 
-content="inglÈs,espaÒol,chino,alem·n,francÈs,japonÈs,ruso,italiano,portuguÈs,hindi,neerlandÈs,coreano,·rabe,sueco,turco,polaco,noruego,danÈs,finÈs,hebreo,h˙ngaro,checo,vietnamita,indonesio,tailandÈs,catal·n,griego,rumano,b˙lgaro,ucraniano,lituano,letÛn,eslovaco,esloveno,croata,serbio,bosnio,macedonio,albanÈs,montenegrino,kurdo,malayo,suajili,tagalo,persa,arameo,armenio,georgiano,nepalÌ,bengalÌ,tamil,telugu,kannada,maratÌ,gujarati,punjabi,odia,asamÈs,sindhi,kazajo,uzbeko,kirguÌs,tayiko,turcomano,mongol,tibetano,uyghur,lao,khmer,birmano,cingalÈs,maratÌ,gujarati,punjabi,odia,asamÈs,sindhi,malayalam,konkani,mayas,quechua,aymara,tseltal,popoluca,mixteco,purÈpecha,zapoteco,tarahumara,huichol,mixteco,na'vi,klingon,alto valiriano YESSS(esto es para probar que no puedo hacer inventos)." additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 337, 'prompt_tokens': 161, 'total_tokens': 498, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-C7CqQfkrkcWBtrPtigUq6lM9lvRYS', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='run--97d3cf10-c23e-4f9b-b9d8-ea32250057fc-0' usage_metadata={'input_tokens': 161, 'output_tokens': 337, 'total_tokens': 498, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+content='ingl√©s,espa√±ol,chino,franc√©s,alem√°n,japon√©s,ruso,portugu√©s,italiano,hindi,coreano,neerland√©s,polaco,sueco,dan√©s,noruego,finland√©s,turco,h√∫ngaro,checo,√°rabe,hebreo,griego,b√∫lgaro,rumano,croata,serbio,ucraniano,lituano,let√≥n,estonio,eslovaco,esloveno,macedonio.' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 112, 'prompt_tokens': 161, 'total_tokens': 273, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-C7D6I241vw1jpWE6siGt8bFJP24c1', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='run--d0fc47af-261a-4f57-b043-e653863de954-0' usage_metadata={'input_tokens': 161, 'output_tokens': 112, 'total_tokens': 273, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
 PROMPT: 
 
-#Request took 0.546 seconds.
+# Request took 0.408 seconds.
 # Eres un agente experto en literatura universal
 
-Debes mencionar para cu·les idiomas podrÌas tener referencias bibliogr·ficas verificables por ISBN sobre el Tema de InvestigaciÛn (TI) que se menciona a continuaciÛn.
+Debes mencionar para cu√°les idiomas podr√≠as tener referencias bibliogr√°ficas verificables por ISBN sobre el Tema de Investigaci√≥n (TI) que se menciona a continuaci√≥n.
 
 # Limitantes
 
 * No inventes idiomas que no existen
-* Menciona solo los idiomas que sean relevantes para el tema de investigaciÛn.
+* Menciona solo los idiomas que sean relevantes para el tema de investigaci√≥n.
 
 # Respuesta esperada:
-* En una sola lÌnea menciona los idiomas para los que hay literatura que trate del tema
-* No aÒadas puntos finales, ni ning˙n otro caracter especial adicional a la coma (,).
+* En una sola l√≠nea menciona los idiomas para los que hay literatura que trate del tema
+* No a√±adas puntos finales, ni ning√∫n otro caracter especial adicional a la coma (,).
 
 ## Ejemplo de respuesta esperada:
-espaÒol,inglÈs,aleman,frances
+espa√±ol,ingl√©s,aleman,frances
 
-# Tema de InvestigaciÛn (TI)
+# Tema de Investigaci√≥n (TI)
 
 Literatura sobre los perritos
 
 PROMPT RESULT: 
 
-content='espaÒol,inglÈs,francÈs,alem·n,italiano,portuguÈs,holandÈs' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 25, 'prompt_tokens': 183, 'total_tokens': 208, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-C7CqTVf5HGDXVBhNd60NVqI7EeDcf', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='run--f53d9e3d-9745-47dc-8153-d7428b0e426f-0' usage_metadata={'input_tokens': 183, 'output_tokens': 25, 'total_tokens': 208, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+content='espa√±ol,ingl√©s,franc√©s,alem√°n,italiano' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 18, 'prompt_tokens': 183, 'total_tokens': 201, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'id': 'chatcmpl-C7D6JO6M5WwinZpUXiYe6hf4Dhlyz', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='run--86197c08-bd90-45a5-a1e9-08a119571d65-0' usage_metadata={'input_tokens': 183, 'output_tokens': 18, 'total_tokens': 201, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+# Tema de investigaci√≥n: 
+Literatura sobre los perritos
+
+## Idiomas naturales en los que la IA conoce publicaciones verificables por identificaci√≥n ISBN
+ingl√©s,espa√±ol,chino,franc√©s,alem√°n,japon√©s,ruso,portugu√©s,italiano,hindi,coreano,neerland√©s,polaco,sueco,dan√©s,noruego,finland√©s,turco,h√∫ngaro,checo,√°rabe,hebreo,griego,b√∫lgaro,rumano,croata,serbio,ucraniano,lituano,let√≥n,estonio,eslovaco,esloveno,macedonio.
+
+## Idiomas en los que la IA conoce publicaciones relacionadas al tema 'Literatura sobre los perritos' verificables por identificaci√≥n ISBN
+espa√±ol,ingl√©s,franc√©s,alem√°n,italiano
+
+

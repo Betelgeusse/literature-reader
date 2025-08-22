@@ -29,7 +29,7 @@ def prompt_invoke(prompt_name, **kwargs):
         duration = (anow - bnow).total_seconds()
         timing = f"# Request took {duration:.3f} seconds."
 
-        log_prompt(f"{timing}\n{prompt}", prompt_result, 0, f"{prompt_name}/{time_before_str}_{time_after_str}")
+        log_prompt(f"{timing}\n{prompt}", prompt_result.content, 0, f"{prompt_name}/{time_before_str}_{time_after_str}")
         return prompt_result.content
     except Exception as e:
         print(f"An error has ocurred while calling the prompt: {e}")
